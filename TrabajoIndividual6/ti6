@@ -1,0 +1,73 @@
+1- El diseño descendente o modular consiste en dividir los problemas complejos en varios sub-problemasproblemas más sencillos 
+ que pueden a su vez dividirse en sub-problemas, si siguen siendo muy complicados; hasta que tengamos problemas lo suficientemente
+ sencillos como para resolverlos con programación estructurada.Cada uno de nuestros sub-problemas es un módulo, al que pondremos un
+ nombre específico para identificarlo. Una vez hemos dividido nuestro problema original en varios sub-problemas solucionamos cada 
+ uno de estos por separado, y luego juntamos todas las soluciones parciales para obtener nuestra solución final.
+ Este método tiene la ventaja de que es más sencillo a la hora de resolver problemas complejos, los programas desarrollados 
+ tienen una mayor legibilidad, se puede desarrollar un programa mucho más rápido ya que pueden trabajar varios programadores 
+ en paralelo, el mantenimiento es mucho mñas sencillo, y los módulos creados para la resolución de sub-problemas concretos 
+ pueden reutilizarse ya sea dentro del mismo programa o en otros distinto.
+ Para implementar este método deben seguirse los siguientes pasos:
+  1. Analizar el problema: identificar los datos dados, la entrada; y los datos que se piden, la salida; y sus formatos y pensar 
+  como se puede llegar de unos a otros de manera general.
+  2. Escribir el módulo principal: dividir el problema en módulos y ponerles nombres para identificarlos e implementar la lógica 
+  necesaria (bucles). Si el módulo principal tiene más de 10 sentencias, es demasiado detallado, varias de ellas deberán agruparse
+  y desarrollarse más adelante.
+  3. Escribir otros módulos:  Escribir teniendo en cuenta que cada módulo puede referenciar otros módulos por aún por escribir.
+  4. Revisión y reordenación donde sea necesario.
+
+ 2- No es obligatorio usar módulos para resolver ningún problema de programación pero siempre es recomendable, especialmente cuando el 
+ problema es largo o complejo.
+
+ 3- Un programa en lenguaje C puede contar con tantas funciones como se quiera, de una en adelante.
+ Un programa tiene que empezar con la función main para funcionar, aunque si puede definirse una función antes del main y llamarla 
+ dentro de este.
+ 
+ 4- 
+
+ 5- Un módulo realiza tareas básicas como entrada o salida de datos, cálculo o control.
+ si ,un módulo puede realizar varias tareas funcionales mientras siga siendo relativamente sencillo.
+
+ 6- Una función devuelve un valor y un procedimiento no.
+ Los procedimientos son 'void'
+
+ 7- El control del CPU pasa al módulo, ejecutandose todas las instrucciones de este.
+
+ 8- Hay tres métodos:
+   1. Variables globales: posiciones de memoria compartidas por ambos programas.
+   2. Valor especial devuelto por una función a través de su identificador
+   3. Lista de parámetros o argumentos
+
+9- Coinciden en cantidad, nombre y contenido, ya que los parámetros formales se crean a partir de los actuales, al activar un módulo.
+
+10- Los parámetros de entrada son los que se usan para hacer las distintas operaciones dentro del módulo, y los de salida, son los que el módulo devuelve para usar en otra parte del programa.
+
+11- Las llamadas al módulo correctas son la 2) y la 3), ya que incluyen de manera correcta todos los parámetros de entrada y salida
+
+12- La llamada al módulo correcta es la 1), ya que incluye de manera correcta los parámetros de entrada y salida
+
+13- Saludo --> Faltan paréntesis
+- Saludo(x) --> el módulo no tiene argumentos, es decir, no tiene ninguna 'x' registrada, de modo que no se está llamando correctamente al módulo
+- Saludo()--> Se ejecuta el módulo correctamente
+- Escribir(Saludo()) --> esto no es una llamada a un módulo, osea que no se ejecuta
+- EScribir(Suma(3)) --> el módulo funciona correcdtamente y devuelve el valor de suma 6, impreso en pantalla
+- escribir (suma(y)+suma(x))--> el módulo funciona correctamente y devuelve 10+15, impreso en pantalla
+- escribir (suma(x+y))--> devuleve 45 impreso en pantalla
+- escribir(suma(2))--> devuelve 3 impreso en pantalla
+escribir(F(x+2,+))-->devuelve 12 impreso en pantalla
+- escribir(F(F(x.-),s))--> devuelve -8 impreso en pantalla 
+- escribir(F(x,+)*F(-3,-)/F(1,v))--> devuelve  8*3/1 impreso en pantalla
+- escribir(F(+,5))--> el módulo no ha sido llamado correctamente ya que la primera variable debe ser un entero y la segumda un caracter
+ - Escribir(valores originales:)--> imprime en pantalla la cadena de caracteres valores originales:
+-  Escribir("a=",a, "b=",b) --> imprime en pantalla la cadena de caracteres 'a=3 b=5'
+- Intercambia(a,b) --> devuelve los valores x=5, y=3
+- Escribir("V. intercambiados: ") --> imprime en pantalla la cadena de caracteres "V. intercambiados: "
+- Llamar a Normalizar(vx,vy)--> devuelve los valores v=10 vx=0.8 vy=0.6
+- Escribir("V. Normalizado:") --> imprime en pantalla la cadena de caracteres "V. Normalizado:"
+- Escribir("(",vx, ",",vy, ")") --> imprime en pantalla la cadena de caracteres (8.0,6.0)
+- Llamar a Swap(y,x) --> devuelve los valores x=4 y=5
+- Escribir(x) --> imprime en pantalla '4'
+- Llamar a Swap(x,3)--> devuelve los valores x=3, y=4
+
+
+14- 
